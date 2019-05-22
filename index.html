@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src='js.js'></script>
+</head>
+<body >
+
+ 
+    <div id="card">
+       <table>
+            <tr>             
+                <th colspan = "4"> <input type="" id="result"></th>                 
+            </tr>
+            <tr>              
+                <td><button onclick="show(7)">7</button></td>
+                <td><button onclick="show(8)">8</button></td>
+                <td><button onclick="show(9)">9</button></td> 
+                <td><button onclick="show('*')">x</button></td>
+            </tr>
+            <tr>
+               
+                <td><button onclick="show(4)">4</button></td>
+                <td><button onclick="show(5)">5</button></td>
+                <td><button onclick="show(6)">6</button></td> 
+                <td><button onclick="show('-')">-</button></td>
+            </tr>
+            <tr>
+               
+                <td><button onclick="show(1)">1</button></td>
+                <td><button onclick="show(2)">2</button></td>
+                <td><button onclick="show(3)">3</button></td>
+                <td><button onclick="show('+')">+</button></td>
+            </tr>
+            <tr>
+               
+                <td></td>
+                <td><button onclick="show(0)">0</button></td>
+                <td><button onclick="clear()">C</button></td>
+                <td><button onclick="show('/')">/</button></td>
+            </tr>
+            <tr>               
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><button onclick="operacao()">=</button></td>
+            </tr>
+       </table> 
+    </div>
+    
+</body>
+</html>
